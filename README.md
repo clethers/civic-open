@@ -117,3 +117,7 @@ Append to the `endpoints` array in `app/(site)/developers/page.jsx`:
 ## License
 
 MIT — see [LICENSE](LICENSE)
+
+---
+
+Developed by [Remarx Foundation](https://github.com/clethers)

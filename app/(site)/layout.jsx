@@ -126,6 +126,7 @@ function Footer() {
             </span>
           </div>
           <br />
+          <div className="text-gray-400">Developed by Remarx Foundation</div>
           <div className="text-gray-400">Copyright © 2024 Civic Open</div>
           <div className="text-gray-400">All Rights Reserved</div>
         </div>
