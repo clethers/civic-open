@@ -1,0 +1,873 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" />
+    <link rel="preload" href="/_next/static/media/4473ecc91f70f139-s.p.woff" as="font" crossorigin="" type="font/woff" />
+    <link rel="preload" href="/_next/static/media/463dafcda517f24f-s.p.woff" as="font" crossorigin="" type="font/woff" />
+    <link rel="stylesheet" href="/_next/static/css/cbef8c52f0ef34fb.css" data-precedence="next" />
+    <link rel="stylesheet" href="/_next/static/css/fb36e0a04819706e.css" data-precedence="next" />
+    <link rel="preload" as="script" fetchpriority="low" href="/_next/static/chunks/webpack-b3b6541017a5e255.js" />
+    <script src="/_next/static/css/cbef8c52f0ef34fb.css" async="">
+    </script>
+    <script src="/_next/static/chunks/vendors-767f78b2866e2fdc.js" async="">
+    </script>
+    <script src="/_next/static/chunks/main-app-bd2e545d9d4387ea.js" async="">
+    </script>
+    <script src="/_next/static/chunks/common-e53df629d685a4e2.js" async="">
+    </script>
+    <script src="/_next/static/chunks/app/(site)/home/page-dac23aecbd7305c0.js" async="">
+    </script>
+    <script src="/_next/static/chunks/app/layout-8ca0f40251a64c60.js" async="">
+    </script>
+    <script src="/_next/static/chunks/app/(site)/home/layout-05cd038b81a504ad.js" async="">
+    </script>
+    <link rel="preload" href="https://cdn.jsdelivr.net/npm/smoothscroll-polyfill/dist/smoothscroll.min.js" as="script" />
+    <title>
+      eGovAI
+    </title>
+    <meta name="description" content="eGovAI, the intelligent assistant within the eGovPH App, is here to simplify your interactions with government services." />
+    <meta property="og:title" content="Your All-in-One Government AI Platform" />
+    <meta property="og:description" content="eGovAI, the intelligent assistant within the eGovPH App, is here to simplify your interactions with government services." />
+    <meta property="og:image" content="http://localhost:3000/_next/static/media/meta-favicon.15ad7167.png" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Your All-in-One Government AI Platform" />
+    <meta name="twitter:description" content="eGovAI, the intelligent assistant within the eGovPH App, is here to simplify your interactions with government services." />
+    <meta name="twitter:image" content="http://localhost:3000/_next/static/media/meta-favicon.15ad7167.png" />
+    <link rel="icon" href="/favicon.ico" type="image/x-icon" sizes="16x16" />
+    <meta name="next-size-adjust" />
+    <script src="/_next/static/chunks/polyfills-42372ed130431b0a.js" nomodule="">
+    </script>
+  </head>
+  <body class="__variable_1e4310 __variable_c3aa02 antialiased">
+    <div class="flex flex-col">
+      <div class="flex-1 flex flex-col items-center relative">
+        <div class="max-w-7xl w-full flex-1 flex flex-col px-5">
+          <div class="flex items-center gap-3 py-7">
+            <div class="flex flex-1">
+              <img alt="logo" loading="lazy" width="425" height="92" decoding="async" data-nimg="1" class="h-6 md:h-8 w-auto object-contain" style="color:transparent" srcset="/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Flogo.8bf78fab.png&amp;w=640&amp;q=75 1x, /_next/image?url=%2F_next%2Fstatic%2Fmedia%2Flogo.8bf78fab.png&amp;w=1080&amp;q=75 2x" src="/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Flogo.8bf78fab.png&amp;w=1080&amp;q=75" />
+            </div>
+            <div class="hidden md:flex items-center gap-7">
+              <a class="text-link-active !border-link-active font-semibold" href="/home">              Home
+</a>
+              <a class="" href="#">              Features
+</a>
+              <a class="" href="#">              FAQs
+</a>
+              <a class="" href="#">              Contact
+</a>
+              <a class="" href="/developers">              Developers
+</a>
+              <div class="flex items-center gap-3 ml-4">
+                <button class="px-4 py-2 text-sm font-medium text-gray-700 bg-gray-100 rounded-md hover:text-gray-900 transition-colors">
+                  Login
+                </button>
+                <button class="px-4 py-2 text-sm font-medium text-white bg-black hover:bg-gray-800 rounded-md transition-colors">
+                  Request Access
+                </button>
+              </div>
+            </div>
+            <div class="md:hidden">
+              <svg stroke="currentColor" fill="none" stroke-width="2" viewBox="0 0 24 24" stroke-linecap="round" stroke-linejoin="round" class="w-9 cursor-pointer h-5 w-5" type="button" id="radix-:R5mfnkq:" aria-haspopup="menu" aria-expanded="false" data-state="closed" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg">
+                <line x1="3" y1="12" x2="21" y2="12">
+                </line>
+                <line x1="3" y1="6" x2="21" y2="6">
+                </line>
+                <line x1="3" y1="18" x2="21" y2="18">
+                </line>
+              </svg>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!--$-->
+      <div class="flex flex-col">
+        <div class="flex-1 flex flex-col items-center relative">
+          <div class="max-w-7xl w-full flex-1 flex flex-col px-5">
+            <div class="flex flex-col gap-10">
+              <div class="md:h-[520px] w-full bg-gray-100 rounded-3xl flex flex-col justify-center items-center space-y-5 p-5" style="background-image:url(/_next/static/media/gradient-banner.8557bb60.png);background-position:center;background-repeat:no-repeat;background-size:cover">
+                <div class="flex items-center" data-aos="fade-down">
+                  <img alt="users" loading="lazy" width="126" height="126" decoding="async" data-nimg="1" class="h-10 w-10 object-contain rounded-full border-2 border-white -mx-1.5 bg-white" style="color:transparent" srcset="/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fuser-1.52d766fb.png&amp;w=128&amp;q=75 1x, /_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fuser-1.52d766fb.png&amp;w=256&amp;q=75 2x" src="/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fuser-1.52d766fb.png&amp;w=256&amp;q=75" />
+                  <img alt="users" loading="lazy" width="126" height="126" decoding="async" data-nimg="1" class="h-10 w-10 object-contain rounded-full border-2 border-white -mx-1.5 bg-white" style="color:transparent" srcset="/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fuser-2.a9980793.png&amp;w=128&amp;q=75 1x, /_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fuser-2.a9980793.png&amp;w=256&amp;q=75 2x" src="/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fuser-2.a9980793.png&amp;w=256&amp;q=75" />
+                  <img alt="users" loading="lazy" width="126" height="126" decoding="async" data-nimg="1" class="h-10 w-10 object-contain rounded-full border-2 border-white -mx-1.5 bg-white" style="color:transparent" srcset="/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fuser-3.d2984914.png&amp;w=128&amp;q=75 1x, /_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fuser-3.d2984914.png&amp;w=256&amp;q=75 2x" src="/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fuser-3.d2984914.png&amp;w=256&amp;q=75" />
+                  <img alt="users" loading="lazy" width="84" height="85" decoding="async" data-nimg="1" class="h-10 w-10 object-contain rounded-full border-2 border-white -mx-1.5 bg-white" style="color:transparent" srcset="/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Farrow.abcdf25f.png&amp;w=96&amp;q=75 1x, /_next/image?url=%2F_next%2Fstatic%2Fmedia%2Farrow.abcdf25f.png&amp;w=256&amp;q=75 2x" src="/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Farrow.abcdf25f.png&amp;w=256&amp;q=75" />
+                </div>
+                <div class="text-2xl md:text-[60px] font-medium leading-tight text-center px-5 md:px-28 lg:px-40 text-black" data-aos="fade-down" data-aos-delay="300">
+                  Your All-in-One Government AI Platform
+                </div>
+                <div class="text-sm text-center px-5 md:px-40 text-gray-600" data-aos="fade-up" data-aos-delay="600">
+                  eGovAI, the intelligent assistant within the eGovPH App, is here to simplify your interactions with government services.
+                </div>
+                <br class="hidden md:block" />
+                <div data-aos="fade-up" data-aos-delay="900">
+                  <div class="hidden md:block">
+                    <a href="/developers">                    <button type="button" class="flex items-center gap-3 text-sm font-bold bg-gradient-to-r from-[#0094E7] via-[#0050E7] to-[#0040E7] text-white rounded-sm hover:opacity-90 p-5">
+                      <div>
+                        Get Started
+                      </div>
+                      <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 512 512" class="h-4 w-4" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M0 256a256 256 0 1 0 512 0A256 256 0 1 0 0 256zM281 385c-9.4 9.4-24.6 9.4-33.9 0s-9.4-24.6 0-33.9l71-71L136 280c-13.3 0-24-10.7-24-24s10.7-24 24-24l182.1 0-71-71c-9.4-9.4-9.4-24.6 0-33.9s24.6-9.4 33.9 0L393 239c9.4 9.4 9.4 24.6 0 33.9L281 385z">
+                        </path>
+                      </svg>
+                    </button>
+</a>
+                  </div>
+                  <div class="md:hidden">
+                    <a href="/developers">                    <button type="button" class="flex items-center gap-3 text-sm font-bold bg-gradient-to-r from-[#0094E7] via-[#0050E7] to-[#0040E7] text-white rounded-sm hover:opacity-90 py-2.5 px-4">
+                      <div>
+                        Get Started
+                      </div>
+                      <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 512 512" class="h-4 w-4" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M0 256a256 256 0 1 0 512 0A256 256 0 1 0 0 256zM281 385c-9.4 9.4-24.6 9.4-33.9 0s-9.4-24.6 0-33.9l71-71L136 280c-13.3 0-24-10.7-24-24s10.7-24 24-24l182.1 0-71-71c-9.4-9.4-9.4-24.6 0-33.9s24.6-9.4 33.9 0L393 239c9.4 9.4 9.4 24.6 0 33.9L281 385z">
+                        </path>
+                      </svg>
+                    </button>
+</a>
+                  </div>
+                </div>
+              </div>
+              <div class="grid sm:grid-cols-5 grid-cols-1 sm:gap-x-5 gap-y-5 sm:gap-y-0 pb-10">
+                <div class="col-span-1 sm:gap-5 gap-2 justify-center sm:flex flex-col grid grid-cols-2">
+                  <div data-aos="fade-right" data-aos-delay="800" class=" flex justify-end flex-col">
+                    <img alt="mobile-banner" loading="lazy" width="320" height="132" decoding="async" data-nimg="1" class="sm:-translate-x-8 h-20 w-full object-contain object-right" style="color:transparent" srcset="/_next/image?url=%2F_next%2Fstatic%2Fmedia%2F1.df955419.png&amp;w=384&amp;q=75 1x, /_next/image?url=%2F_next%2Fstatic%2Fmedia%2F1.df955419.png&amp;w=640&amp;q=75 2x" src="/_next/image?url=%2F_next%2Fstatic%2Fmedia%2F1.df955419.png&amp;w=640&amp;q=75" />
+                  </div>
+                  <div data-aos="fade-right" data-aos-delay="800" class=" flex justify-end flex-col">
+                    <img alt="mobile-banner" loading="lazy" width="320" height="132" decoding="async" data-nimg="1" class="sm:-translate-x-2 h-20 w-full object-contain object-right" style="color:transparent" srcset="/_next/image?url=%2F_next%2Fstatic%2Fmedia%2F2.eda494a1.png&amp;w=384&amp;q=75 1x, /_next/image?url=%2F_next%2Fstatic%2Fmedia%2F2.eda494a1.png&amp;w=640&amp;q=75 2x" src="/_next/image?url=%2F_next%2Fstatic%2Fmedia%2F2.eda494a1.png&amp;w=640&amp;q=75" />
+                  </div>
+                  <div data-aos="fade-right" data-aos-delay="800" class=" flex justify-end flex-col">
+                    <img alt="mobile-banner" loading="lazy" width="320" height="132" decoding="async" data-nimg="1" class="sm:-translate-x-8 h-20 w-full object-contain object-right" style="color:transparent" srcset="/_next/image?url=%2F_next%2Fstatic%2Fmedia%2F3.79cb6ccb.png&amp;w=384&amp;q=75 1x, /_next/image?url=%2F_next%2Fstatic%2Fmedia%2F3.79cb6ccb.png&amp;w=640&amp;q=75 2x" src="/_next/image?url=%2F_next%2Fstatic%2Fmedia%2F3.79cb6ccb.png&amp;w=640&amp;q=75" />
+                  </div>
+                  <div data-aos="fade-right" data-aos-delay="800" class=" flex justify-end flex-col">
+                    <img alt="mobile-banner" loading="lazy" width="320" height="133" decoding="async" data-nimg="1" class="sm:-translate-x-2 h-20 w-full object-contain object-right" style="color:transparent" srcset="/_next/image?url=%2F_next%2Fstatic%2Fmedia%2F4.47391f5c.png&amp;w=384&amp;q=75 1x, /_next/image?url=%2F_next%2Fstatic%2Fmedia%2F4.47391f5c.png&amp;w=640&amp;q=75 2x" src="/_next/image?url=%2F_next%2Fstatic%2Fmedia%2F4.47391f5c.png&amp;w=640&amp;q=75" />
+                  </div>
+                  <div data-aos="fade-right" data-aos-delay="800" class=" flex justify-end flex-col">
+                    <img alt="mobile-banner" loading="lazy" width="320" height="133" decoding="async" data-nimg="1" class="sm:-translate-x-8 h-20 w-full object-contain object-right" style="color:transparent" srcset="/_next/image?url=%2F_next%2Fstatic%2Fmedia%2F5.711c4ca4.png&amp;w=384&amp;q=75 1x, /_next/image?url=%2F_next%2Fstatic%2Fmedia%2F5.711c4ca4.png&amp;w=640&amp;q=75 2x" src="/_next/image?url=%2F_next%2Fstatic%2Fmedia%2F5.711c4ca4.png&amp;w=640&amp;q=75" />
+                  </div>
+                </div>
+                <div class="col-span-3">
+                  <div data-aos="fade-up" data-aos-delay="800">
+                    <img alt="mobile-banner" loading="lazy" width="786" height="591" decoding="async" data-nimg="1" style="color:transparent" srcset="/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fcenter.be761a78.png&amp;w=828&amp;q=75 1x, /_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fcenter.be761a78.png&amp;w=1920&amp;q=75 2x" src="/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fcenter.be761a78.png&amp;w=1920&amp;q=75" />
+                  </div>
+                </div>
+                <div class="col-span-1 sm:gap-5 gap-2 justify-center sm:flex flex-col grid grid-cols-2">
+                  <div data-aos="fade-left" data-aos-delay="800">
+                    <img alt="mobile-banner" loading="lazy" width="321" height="132" decoding="async" data-nimg="1" class="sm:translate-x-8 h-20 w-full object-contain" style="color:transparent" srcset="/_next/image?url=%2F_next%2Fstatic%2Fmedia%2F6.4ff61c6e.png&amp;w=384&amp;q=75 1x, /_next/image?url=%2F_next%2Fstatic%2Fmedia%2F6.4ff61c6e.png&amp;w=750&amp;q=75 2x" src="/_next/image?url=%2F_next%2Fstatic%2Fmedia%2F6.4ff61c6e.png&amp;w=750&amp;q=75" />
+                  </div>
+                  <div data-aos="fade-left" data-aos-delay="800">
+                    <img alt="mobile-banner" loading="lazy" width="321" height="132" decoding="async" data-nimg="1" class="sm:-translate-x-2 h-20 w-full object-contain" style="color:transparent" srcset="/_next/image?url=%2F_next%2Fstatic%2Fmedia%2F7.82bc71b6.png&amp;w=384&amp;q=75 1x, /_next/image?url=%2F_next%2Fstatic%2Fmedia%2F7.82bc71b6.png&amp;w=750&amp;q=75 2x" src="/_next/image?url=%2F_next%2Fstatic%2Fmedia%2F7.82bc71b6.png&amp;w=750&amp;q=75" />
+                  </div>
+                  <div data-aos="fade-left" data-aos-delay="800">
+                    <img alt="mobile-banner" loading="lazy" width="321" height="132" decoding="async" data-nimg="1" class="sm:translate-x-8 h-20 w-full object-contain" style="color:transparent" srcset="/_next/image?url=%2F_next%2Fstatic%2Fmedia%2F8.5b8c378d.png&amp;w=384&amp;q=75 1x, /_next/image?url=%2F_next%2Fstatic%2Fmedia%2F8.5b8c378d.png&amp;w=750&amp;q=75 2x" src="/_next/image?url=%2F_next%2Fstatic%2Fmedia%2F8.5b8c378d.png&amp;w=750&amp;q=75" />
+                  </div>
+                  <div data-aos="fade-left" data-aos-delay="800">
+                    <img alt="mobile-banner" loading="lazy" width="321" height="134" decoding="async" data-nimg="1" class="sm:-translate-x-2 h-20 w-full object-contain" style="color:transparent" srcset="/_next/image?url=%2F_next%2Fstatic%2Fmedia%2F9.64999bd9.png&amp;w=384&amp;q=75 1x, /_next/image?url=%2F_next%2Fstatic%2Fmedia%2F9.64999bd9.png&amp;w=750&amp;q=75 2x" src="/_next/image?url=%2F_next%2Fstatic%2Fmedia%2F9.64999bd9.png&amp;w=750&amp;q=75" />
+                  </div>
+                  <div data-aos="fade-left" data-aos-delay="800">
+                    <img alt="mobile-banner" loading="lazy" width="321" height="132" decoding="async" data-nimg="1" class="sm:translate-x-8 h-20 w-full object-contain" style="color:transparent" srcset="/_next/image?url=%2F_next%2Fstatic%2Fmedia%2F10.54f1e920.png&amp;w=384&amp;q=75 1x, /_next/image?url=%2F_next%2Fstatic%2Fmedia%2F10.54f1e920.png&amp;w=750&amp;q=75 2x" src="/_next/image?url=%2F_next%2Fstatic%2Fmedia%2F10.54f1e920.png&amp;w=750&amp;q=75" />
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div id="features">
+        </div>
+        <div class="flex-1 flex flex-col items-center relative py-20 md:py-40 bg-[#F3F7FA]">
+          <div class="max-w-7xl w-full flex-1 flex flex-col px-5">
+            <div class="flex flex-col items-center justify-center gap-10">
+              <div class="space-y-5 md:space-y-10">
+                <div class="text-2xl md:text-[60px] leading-tight font-bold text-center md:max-w-[600px]" data-aos="fade-up">
+                  Solving Challenges Using eGovAI
+                </div>
+                <div class="text-sm md:text-base text-center md:max-w-[550px]" data-aos="fade-up">
+                  Government services should be accessible, efficient, and inclusive. eGovAI is designed to overcome some of the most common barriers citizens face when engaging with government systems, making it easier to access vital services and information.
+                </div>
+              </div>
+              <div class="flex items-center justify-center gap-3 flex-wrap">
+                <div class="rounded-lg md:rounded-xl border border-gray-100 shadow-sm bg-card text-card-foreground md:w-[350px] md:h-[250px]" data-aos="fade-up-right" data-aos-delay="400" data-aos-duration="600">
+                  <div class="flex flex-col p-3.5 md:p-5 space-y-3 md:space-y-5">
+                    <div class="tracking-tight text-sm md:text-[22px] font-bold leading-snug">
+                      Expanding Language Accessibility
+                    </div>
+                    <div class="text-muted-foreground text-xs md:text-sm leading-loosed">
+                      The Translator tool provides real-time translation support across multiple Philippine languages, allowing citizens to interact with government services in the language they prefer.
+                    </div>
+                  </div>
+                </div>
+                <div class="rounded-lg md:rounded-xl border border-gray-100 shadow-sm bg-card text-card-foreground md:w-[350px] md:h-[250px]" data-aos="fade-up" data-aos-delay="300" data-aos-duration="600">
+                  <div class="flex flex-col p-3.5 md:p-5 space-y-3 md:space-y-5">
+                    <div class="tracking-tight text-sm md:text-[22px] font-bold leading-snug">
+                      Providing Clear Information and Guidance
+                    </div>
+                    <div class="text-muted-foreground text-xs md:text-sm leading-loosed">
+                      AI Assistant acts as a virtual assistant available 24/7 to answer questions, provide guidance, and direct users to the right resources.
+                    </div>
+                  </div>
+                </div>
+                <div class="rounded-lg md:rounded-xl border border-gray-100 shadow-sm bg-card text-card-foreground md:w-[350px] md:h-[250px]" data-aos="fade-up-left" data-aos-delay="400" data-aos-duration="600">
+                  <div class="flex flex-col p-3.5 md:p-5 space-y-3 md:space-y-5">
+                    <div class="tracking-tight text-sm md:text-[22px] font-bold leading-snug">
+                      Ensuring Access to 24/7 Support
+                    </div>
+                    <div class="text-muted-foreground text-xs md:text-sm leading-loosed">
+                      eGovAI’s services are available anytime, anywhere through the eGovPH App, offering 24/7 access to translation, document processing, and resume-building tools in one comprehensive solution.
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="flex-1 flex flex-col items-center relative pt-20 md:pt-40 bg-white">
+          <div class="max-w-7xl w-full flex-1 flex flex-col px-5">
+            <div class="flex flex-col items-center justify-center gap-10 bg-slate-900 p-10 rounded-xl">
+              <div class="space-y-5 md:space-y-10">
+                <div class="text-2xl md:text-[60px] leading-tight font-bold text-center md:max-w-[600px] text-white" data-aos="fade-up">
+                  Key Advantages
+                </div>
+              </div>
+              <div class="grid grid-cols-1 md:grid-cols-4 -gap-px">
+                <div class="border border-gray-700 p-6 flex flex-col" data-aos="fade-up-right" data-aos-delay="400" data-aos-duration="600">
+                  <div class="mb-2">
+                    <img alt="icon" loading="lazy" width="55" height="38" decoding="async" data-nimg="1" class="h-4 w-auto object-contain" style="color:transparent" srcset="/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Ficon.e9effb21.png&amp;w=64&amp;q=75 1x, /_next/image?url=%2F_next%2Fstatic%2Fmedia%2Ficon.e9effb21.png&amp;w=128&amp;q=75 2x" src="/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Ficon.e9effb21.png&amp;w=128&amp;q=75" />
+                  </div>
+                  <div class="space-y-3">
+                    <h5 class="text-sm md:text-base font-bold leading-snug text-white">
+                      Accessibility
+                    </h5>
+                    <p class="text-xs md:text-sm leading-relaxed text-slate-400">
+                      Multi-language support and AI assistance for inclusivity.
+                    </p>
+                  </div>
+                </div>
+                <div class="border border-gray-700 p-6 flex flex-col" data-aos="fade-up" data-aos-delay="300" data-aos-duration="600">
+                  <div class="mb-2">
+                    <img alt="icon" loading="lazy" width="55" height="38" decoding="async" data-nimg="1" class="h-4 w-auto object-contain" style="color:transparent" srcset="/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Ficon.e9effb21.png&amp;w=64&amp;q=75 1x, /_next/image?url=%2F_next%2Fstatic%2Fmedia%2Ficon.e9effb21.png&amp;w=128&amp;q=75 2x" src="/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Ficon.e9effb21.png&amp;w=128&amp;q=75" />
+                  </div>
+                  <div class="space-y-3">
+                    <h5 class="text-sm md:text-base font-bold leading-snug text-white">
+                      Efficiency
+                    </h5>
+                    <p class="text-xs md:text-sm leading-relaxed text-slate-400">
+                      Automated document handling, verification, and service navigation.
+                    </p>
+                  </div>
+                </div>
+                <div class="border border-gray-700 p-6 flex flex-col" data-aos="fade-up" data-aos-delay="500" data-aos-duration="600">
+                  <div class="mb-2">
+                    <img alt="icon" loading="lazy" width="55" height="38" decoding="async" data-nimg="1" class="h-4 w-auto object-contain" style="color:transparent" srcset="/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Ficon.e9effb21.png&amp;w=64&amp;q=75 1x, /_next/image?url=%2F_next%2Fstatic%2Fmedia%2Ficon.e9effb21.png&amp;w=128&amp;q=75 2x" src="/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Ficon.e9effb21.png&amp;w=128&amp;q=75" />
+                  </div>
+                  <div class="space-y-3">
+                    <h5 class="text-sm md:text-base font-bold leading-snug text-white">
+                      Transparency
+                    </h5>
+                    <p class="text-xs md:text-sm leading-relaxed text-slate-400">
+                      Easy access to updated laws and regulations.
+                    </p>
+                  </div>
+                </div>
+                <div class="border border-gray-700 p-6 flex flex-col" data-aos="fade-up-left" data-aos-delay="600" data-aos-duration="600">
+                  <div class="mb-2">
+                    <img alt="icon" loading="lazy" width="55" height="38" decoding="async" data-nimg="1" class="h-4 w-auto object-contain" style="color:transparent" srcset="/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Ficon.e9effb21.png&amp;w=64&amp;q=75 1x, /_next/image?url=%2F_next%2Fstatic%2Fmedia%2Ficon.e9effb21.png&amp;w=128&amp;q=75 2x" src="/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Ficon.e9effb21.png&amp;w=128&amp;q=75" />
+                  </div>
+                  <div class="space-y-3">
+                    <h5 class="text-sm md:text-base font-bold leading-snug text-white">
+                      Innovation
+                    </h5>
+                    <p class="text-xs md:text-sm leading-relaxed text-slate-400">
+                      Cutting-edge AI applications tailored for government and citizen needs.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="flex-1 flex flex-col items-center relative py-20 md:py-40">
+          <div class="max-w-7xl w-full flex-1 flex flex-col px-5">
+            <div class="space-y-5 md:space-y-10 mx-auto mb-5 sm:mb-20">
+              <div class="text-2xl md:text-[60px] leading-tight font-bold text-center md:max-w-[600px]" data-aos="fade-up">
+                Features of eGovAI
+              </div>
+              <div class="text-sm md:text-base text-center md:max-w-[550px] mx-auto" data-aos="fade-up">
+                Enhancing digital government services with AI-powered solutions for a seamless and efficient user experience.
+              </div>
+            </div>
+            <div class="flex flex-col md:flex-row items-center justify-center gap-10">
+              <div data-aos-duration="1000" data-aos="fade-left">
+                <img alt="chatbot-banner" loading="lazy" width="986" height="880" decoding="async" data-nimg="1" class="md:h-[440px] w-auto object-contain" style="color:transparent" srcset="/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fchatbot-banner.12db99ef.png&amp;w=1080&amp;q=75 1x, /_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fchatbot-banner.12db99ef.png&amp;w=2048&amp;q=75 2x" src="/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fchatbot-banner.12db99ef.png&amp;w=2048&amp;q=75" />
+              </div>
+              <div class="flex flex-col items-center md:items-start space-y-5" data-aos-delay="400" data-aos-duration="1000" data-aos="fade-right">
+                <div class="inline py-2 px-4 bg-gray-100 rounded-md text-sm font-bold text-xs md:text-sm">
+                  CHATBOT
+                </div>
+                <div class="sm:max-w-96 text-center md:text-left space-y-3">
+                  <div class="text-2xl md:text-[48px] font-bold leading-[50px]">
+                    AI Assistant
+                  </div>
+                  <div class="text-description text-sm md:text-base">
+                    Got a question? AI Assistant AI is ready to help 24/7, guiding you through government services, providing answers, and ensuring you get what you need quickly.
+                  </div>
+                </div>
+                <br />
+                <button type="button" class="flex items-center gap-3 text-sm font-bold bg-gradient-to-r from-[#0094E7] via-[#0050E7] to-[#0040E7] text-white rounded-sm hover:opacity-90 py-2.5 px-4">
+                  <div>
+                    Chat Now – Get Instant Support
+                  </div>
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="flex-1 flex flex-col items-center relative py-20 md:py-40">
+          <div class="max-w-7xl w-full flex-1 flex flex-col px-5">
+            <div class="flex flex-col md:flex-row items-center justify-center gap-10 md:-mr-20">
+              <div class="flex flex-col items-center md:items-start space-y-5" data-aos-duration="1000" data-aos="fade-up-right" data-aos-delay="400">
+                <div class="inline py-2 px-4 bg-gray-100 rounded-md text-sm font-bold text-xs md:text-sm">
+                  AI-POWERED
+                </div>
+                <div class="sm:max-w-96 text-center md:text-left space-y-3">
+                  <div class="text-2xl md:text-[48px] font-bold leading-[50px]">
+                    Translator
+                  </div>
+                  <div class="text-description text-sm md:text-base ">
+                    Language should never be a barrier. With support for multiple Philippine languages, our Translator ensures every citizen can navigate government services confidently.
+                  </div>
+                </div>
+                <br />
+                <button type="button" class="flex items-center gap-3 text-sm font-bold bg-gradient-to-r from-[#0094E7] via-[#0050E7] to-[#0040E7] text-white rounded-sm hover:opacity-90 py-2.5 px-4">
+                  <div>
+                    Explore in Your Language
+                  </div>
+                </button>
+              </div>
+              <div data-aos="fade-down-left" data-aos-duration="1000" class="order-first sm:order-none">
+                <img alt="chatbot-banner" loading="lazy" width="957" height="637" decoding="async" data-nimg="1" class="md:h-[400px] w-auto object-contain" style="color:transparent" srcset="/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Ftranslator-banner.bbf04cff.png&amp;w=1080&amp;q=75 1x, /_next/image?url=%2F_next%2Fstatic%2Fmedia%2Ftranslator-banner.bbf04cff.png&amp;w=1920&amp;q=75 2x" src="/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Ftranslator-banner.bbf04cff.png&amp;w=1920&amp;q=75" />
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="flex-1 flex flex-col items-center relative py-20 md:py-40">
+          <div class="max-w-7xl w-full flex-1 flex flex-col px-5">
+            <div class="flex flex-col md:flex-row items-center justify-center gap-14 md:-ml-20">
+              <div data-aos-duration="1000" data-aos="fade-right">
+                <img alt="chatbot-banner" loading="lazy" width="658" height="450" decoding="async" data-nimg="1" class="md:h-[380px] w-auto object-contain" style="color:transparent" srcset="/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fidentifier-banner.e6cd6756.png&amp;w=750&amp;q=75 1x, /_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fidentifier-banner.e6cd6756.png&amp;w=1920&amp;q=75 2x" src="/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fidentifier-banner.e6cd6756.png&amp;w=1920&amp;q=75" />
+              </div>
+              <div class="flex flex-col items-center md:items-start space-y-5" data-aos-duration="1000" data-aos-delay="400" data-aos="fade-left">
+                <div class="inline py-2 px-4 bg-gray-100 rounded-md text-sm font-bold text-xs md:text-sm">
+                  AI-POWERED
+                </div>
+                <div class="sm:max-w-[430px] text-center md:text-left space-y-3">
+                  <div class="text-2xl md:text-[48px] font-bold leading-[50px]">
+                    Image Identifier
+                  </div>
+                  <div class="text-description text-sm md:text-base">
+                    Identify everyday objects and items using AI. This tool provides real-time information, making it easier to understand and categorize what’s around you.
+                  </div>
+                </div>
+                <br />
+                <button type="button" class="flex items-center gap-3 text-sm font-bold bg-gradient-to-r from-[#0094E7] via-[#0050E7] to-[#0040E7] text-white rounded-sm hover:opacity-90 py-2.5 px-4">
+                  <div>
+                    Discover Objects Around You
+                  </div>
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="flex-1 flex flex-col items-center relative py-20 md:py-40">
+          <div class="max-w-7xl w-full flex-1 flex flex-col px-5">
+            <div class="flex flex-col md:flex-row items-center justify-center gap-5">
+              <div class="space-y-5 flex flex-col items-center md:items-start" data-aos-duration="1000" data-aos="fade-up">
+                <div class="inline py-2 px-4 bg-gray-100 rounded-md text-sm font-bold text-xs md:text-sm">
+                  OCR
+                </div>
+                <div class="sm:max-w-[510px] text-center md:text-left space-y-3">
+                  <div class="text-2xl md:text-[48px] font-bold leading-[50px]">
+                    Document Extractor
+                  </div>
+                  <div class="text-description text-sm md:text-base ">
+                    Extract text from images and scanned documents with precision using OCR technology. Perfect for digitizing forms, receipts, or IDs with ease.
+                  </div>
+                </div>
+                <br />
+                <button type="button" class="flex items-center gap-3 text-sm font-bold bg-gradient-to-r from-[#0094E7] via-[#0050E7] to-[#0040E7] text-white rounded-sm hover:opacity-90 py-2.5 px-4">
+                  <div>
+                    Scan and Extract Text Instantly
+                  </div>
+                </button>
+              </div>
+              <div data-aos-delay="500" data-aos-duration="1000" data-aos="fade-down" class="order-first sm:order-none">
+                <img alt="chatbot-banner" loading="lazy" width="974" height="606" decoding="async" data-nimg="1" class="md:h-[360px] w-auto object-contain" style="color:transparent" srcset="/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fdocument-extractor-banner.7c903c6f.png&amp;w=1080&amp;q=75 1x, /_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fdocument-extractor-banner.7c903c6f.png&amp;w=2048&amp;q=75 2x" src="/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fdocument-extractor-banner.7c903c6f.png&amp;w=2048&amp;q=75" />
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="flex-1 flex flex-col items-center relative py-20 md:py-40">
+          <div class="max-w-7xl w-full flex-1 flex flex-col px-5">
+            <div class="flex flex-col md:flex-row items-center justify-center gap-14 md:-ml-20">
+              <div data-aos-duration="1000" data-aos="fade-right">
+                <img alt="chatbot-banner" loading="lazy" width="738" height="856" decoding="async" data-nimg="1" class="md:h-[480px] w-auto object-contain" style="color:transparent" srcset="/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fprogrammer-banner.0157169d.png&amp;w=750&amp;q=75 1x, /_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fprogrammer-banner.0157169d.png&amp;w=1920&amp;q=75 2x" src="/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fprogrammer-banner.0157169d.png&amp;w=1920&amp;q=75" />
+              </div>
+              <div class="flex flex-col items-center md:items-start space-y-5" data-aos-duration="1000" data-aos-delay="400" data-aos="fade-left">
+                <div class="inline py-2 px-4 bg-gray-100 rounded-md text-sm font-bold text-xs md:text-sm">
+                  PROGRAMMING
+                </div>
+                <div class="sm:max-w-[430px] text-center md:text-left space-y-3">
+                  <div class="text-2xl md:text-[48px] font-bold leading-[50px]">
+                    Coder/Programmer
+                  </div>
+                  <div class="text-description text-sm md:text-base">
+                    An AI-powered tool that assists in writing, debugging, and optimizing code for various programming languages, making development faster and more efficient.
+                  </div>
+                </div>
+                <br />
+                <button type="button" class="flex items-center gap-3 text-sm font-bold bg-gradient-to-r from-[#0094E7] via-[#0050E7] to-[#0040E7] text-white rounded-sm hover:opacity-90 py-2.5 px-4">
+                  <div>
+                    Try AI-Powered Coding Now
+                  </div>
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="flex-1 flex flex-col items-center relative py-20 md:py-40">
+          <div class="max-w-7xl w-full flex-1 flex flex-col px-5">
+            <div class="flex flex-col md:flex-row items-center justify-center gap-5">
+              <div class="space-y-5 flex flex-col items-center md:items-start" data-aos-duration="1000" data-aos="fade-up">
+                <div class="inline py-2 px-4 bg-gray-100 rounded-md text-sm font-bold text-xs md:text-sm">
+                  SPEECH
+                </div>
+                <div class="sm:max-w-[510px] text-center md:text-left space-y-3">
+                  <div class="text-2xl md:text-[48px] font-bold leading-[50px]">
+                    Speech Maker
+                  </div>
+                  <div class="text-description text-sm md:text-base ">
+                    Create well-structured and impactful speeches for any occasion, from formal presentations to public addresses.
+                  </div>
+                </div>
+                <br />
+                <button type="button" class="flex items-center gap-3 text-sm font-bold bg-gradient-to-r from-[#0094E7] via-[#0050E7] to-[#0040E7] text-white rounded-sm hover:opacity-90 py-2.5 px-4">
+                  <div>
+                    Generate Your Speech Today
+                  </div>
+                </button>
+              </div>
+              <div data-aos-delay="500" data-aos-duration="1000" data-aos="fade-down" class="order-first sm:order-none">
+                <img alt="chatbot-banner" loading="lazy" width="974" height="609" decoding="async" data-nimg="1" class="md:h-[360px] w-auto object-contain" style="color:transparent" srcset="/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fspeech-maker-banner.344102d5.png&amp;w=1080&amp;q=75 1x, /_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fspeech-maker-banner.344102d5.png&amp;w=2048&amp;q=75 2x" src="/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fspeech-maker-banner.344102d5.png&amp;w=2048&amp;q=75" />
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="flex-1 flex flex-col items-center relative py-20 md:py-40">
+          <div class="max-w-7xl w-full flex-1 flex flex-col px-5">
+            <div class="flex flex-col md:flex-row items-center justify-center gap-14 md:-ml-20">
+              <div data-aos-duration="1000" data-aos="fade-right">
+                <img alt="chatbot-banner" loading="lazy" width="888" height="594" decoding="async" data-nimg="1" class="md:h-[320px] w-auto object-contain" style="color:transparent" srcset="/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fidentity-ai-banner.8d519459.png&amp;w=1080&amp;q=75 1x, /_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fidentity-ai-banner.8d519459.png&amp;w=1920&amp;q=75 2x" src="/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fidentity-ai-banner.8d519459.png&amp;w=1920&amp;q=75" />
+              </div>
+              <div class="flex flex-col items-center md:items-start space-y-5" data-aos-duration="1000" data-aos-delay="400" data-aos="fade-left">
+                <div class="inline py-2 px-4 bg-gray-100 rounded-md text-sm font-bold text-xs md:text-sm">
+                  LIVENESS
+                </div>
+                <div class="sm:max-w-[430px] text-center md:text-left space-y-3">
+                  <div class="text-2xl md:text-[48px] font-bold leading-[50px]">
+                    Identity AI
+                  </div>
+                  <div class="text-description text-sm md:text-base">
+                    Ensure secure identity verification with AI-driven facial recognition that confirms real-time user presence.
+                  </div>
+                </div>
+                <br />
+                <button type="button" class="flex items-center gap-3 text-sm font-bold bg-gradient-to-r from-[#0094E7] via-[#0050E7] to-[#0040E7] text-white rounded-sm hover:opacity-90 py-2.5 px-4">
+                  <div>
+                    Verify Securely with AI
+                  </div>
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="flex-1 flex flex-col items-center relative py-20 md:py-40">
+          <div class="max-w-7xl w-full flex-1 flex flex-col px-5">
+            <div class="flex flex-col md:flex-row items-center justify-center gap-5">
+              <div class="space-y-5 flex flex-col items-center md:items-start" data-aos-duration="1000" data-aos="fade-up">
+                <div class="inline py-2 px-4 bg-gray-100 rounded-md text-sm font-bold text-xs md:text-sm">
+                  ASSISTANCE
+                </div>
+                <div class="sm:max-w-[510px] text-center md:text-left space-y-3">
+                  <div class="text-2xl md:text-[48px] font-bold leading-[50px]">
+                    Open AI
+                  </div>
+                  <div class="text-description text-sm md:text-base ">
+                    Leverage advanced AI capabilities for smarter automation, data analysis, and intelligent decision-making in digital governance.
+                  </div>
+                </div>
+                <br />
+                <button type="button" class="flex items-center gap-3 text-sm font-bold bg-gradient-to-r from-[#0094E7] via-[#0050E7] to-[#0040E7] text-white rounded-sm hover:opacity-90 py-2.5 px-4">
+                  <div>
+                    Experience Smarter AI Solutions
+                  </div>
+                </button>
+              </div>
+              <div data-aos-delay="500" data-aos-duration="1000" data-aos="fade-down" class="order-first sm:order-none">
+                <img alt="open-ai-banner" loading="lazy" width="1002" height="732" decoding="async" data-nimg="1" class="md:h-[430px] w-auto object-contain" style="color:transparent" srcset="/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fopen-ai-banner.047f986f.png&amp;w=1080&amp;q=75 1x, /_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fopen-ai-banner.047f986f.png&amp;w=2048&amp;q=75 2x" src="/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fopen-ai-banner.047f986f.png&amp;w=2048&amp;q=75" />
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="flex-1 flex flex-col items-center relative py-20 md:py-40">
+          <div class="max-w-7xl w-full flex-1 flex flex-col px-5">
+            <div class="flex flex-col md:flex-row items-center justify-center gap-14 md:-ml-20">
+              <div data-aos-duration="1000" data-aos="fade-right">
+                <img alt="chatbot-banner" loading="lazy" width="1108" height="721" decoding="async" data-nimg="1" class="md:h-[420px] w-auto object-contain" style="color:transparent" srcset="/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fregulations-banner.5e13c040.png&amp;w=1200&amp;q=75 1x, /_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fregulations-banner.5e13c040.png&amp;w=3840&amp;q=75 2x" src="/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fregulations-banner.5e13c040.png&amp;w=3840&amp;q=75" />
+              </div>
+              <div class="flex flex-col items-center md:items-start space-y-5" data-aos-duration="1000" data-aos-delay="400" data-aos="fade-left">
+                <div class="inline py-2 px-4 bg-gray-100 rounded-md text-sm font-bold text-xs md:text-sm">
+                  LAWS
+                </div>
+                <div class="sm:max-w-[430px] text-center md:text-left space-y-3">
+                  <div class="text-2xl md:text-[48px] font-bold leading-[50px]">
+                    Laws and Regulation
+                  </div>
+                  <div class="text-description text-sm md:text-base">
+                    Access national and local laws, policies, and legal guidelines in one place to stay informed about rights and responsibilities.
+                  </div>
+                </div>
+                <br />
+                <button type="button" class="flex items-center gap-3 text-sm font-bold bg-gradient-to-r from-[#0094E7] via-[#0050E7] to-[#0040E7] text-white rounded-sm hover:opacity-90 py-2.5 px-4">
+                  <div>
+                    Stay Informed on Legal Matters
+                  </div>
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="flex-1 flex flex-col items-center relative py-20 md:py-40">
+          <div class="max-w-7xl w-full flex-1 flex flex-col px-5">
+            <div class="flex flex-col md:flex-row items-center justify-center gap-5">
+              <div class="space-y-5 flex flex-col items-center md:items-start" data-aos-duration="1000" data-aos="fade-up">
+                <div class="inline py-2 px-4 bg-gray-100 rounded-md text-sm font-bold text-xs md:text-sm">
+                  TOURISM
+                </div>
+                <div class="sm:max-w-[510px] text-center md:text-left space-y-3">
+                  <div class="text-2xl md:text-[48px] font-bold leading-[50px]">
+                    Tourism
+                  </div>
+                  <div class="text-description text-sm md:text-base ">
+                    Discover top destinations, travel guides, and cultural insights to explore the beauty of the Philippines with ease.
+                  </div>
+                </div>
+                <br />
+                <button type="button" class="flex items-center gap-3 text-sm font-bold bg-gradient-to-r from-[#0094E7] via-[#0050E7] to-[#0040E7] text-white rounded-sm hover:opacity-90 py-2.5 px-4">
+                  <div>
+                    Plan Your Next Adventure
+                  </div>
+                </button>
+              </div>
+              <div data-aos-delay="500" data-aos-duration="1000" data-aos="fade-down" class="order-first sm:order-none">
+                <img alt="open-ai-banner" loading="lazy" width="944" height="782" decoding="async" data-nimg="1" class="md:h-[430px] w-auto object-contain " style="color:transparent" srcset="/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Ftourism-banner.40b7f08b.png&amp;w=1080&amp;q=75 1x, /_next/image?url=%2F_next%2Fstatic%2Fmedia%2Ftourism-banner.40b7f08b.png&amp;w=1920&amp;q=75 2x" src="/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Ftourism-banner.40b7f08b.png&amp;w=1920&amp;q=75" />
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="flex-1 flex flex-col items-center relative py-20 md:py-40">
+          <div class="max-w-7xl w-full flex-1 flex flex-col px-5">
+            <div class="flex flex-col" id="faqs">
+              <div class="text-center space-y-3 md:space-y-5">
+                <div class="text-2xl md:text-5xl font-medium" data-aos-duration="550" data-aos="fade-up">
+                  Frequently Asked Question
+                </div>
+                <div data-aos-delay="100" data-aos-duration="550" data-aos="fade-up" class="text-description text-sm font-light">
+                  Let&#39;s Clear Up Any Confusion
+                </div>
+              </div>
+              <div class="hidden md:block">
+                <br />
+              </div>
+              <br />
+              <div class="space-y-3 w-full md:w-[900px] md:mx-auto">
+                <div class="bg-[#F8F8F8] hover:bg-[#F5F5F5] rounded-md cursor-pointer" role="presentation">
+                  <button class="p-3 md:p-5 md:px-7 flex items-center gap-5 w-full text-left">
+                    <div class="flex-1 font-medium text-sm md:text-lg">
+                      What is eGovAI, and how does it benefit me?
+                    </div>
+                    <div>
+                      <svg stroke="currentColor" fill="none" stroke-width="2" viewBox="0 0 24 24" stroke-linecap="round" stroke-linejoin="round" class="text-gray-400 h-5 w-5" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg">
+                        <line x1="12" y1="5" x2="12" y2="19">
+                        </line>
+                        <line x1="5" y1="12" x2="19" y2="12">
+                        </line>
+                      </svg>
+                    </div>
+                  </button>
+                </div>
+                <div class="bg-[#F8F8F8] hover:bg-[#F5F5F5] rounded-md cursor-pointer" role="presentation">
+                  <button class="p-3 md:p-5 md:px-7 flex items-center gap-5 w-full text-left">
+                    <div class="flex-1 font-medium text-sm md:text-lg">
+                      How can I use AI Assistant?
+                    </div>
+                    <div>
+                      <svg stroke="currentColor" fill="none" stroke-width="2" viewBox="0 0 24 24" stroke-linecap="round" stroke-linejoin="round" class="text-gray-400 h-5 w-5" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg">
+                        <line x1="12" y1="5" x2="12" y2="19">
+                        </line>
+                        <line x1="5" y1="12" x2="19" y2="12">
+                        </line>
+                      </svg>
+                    </div>
+                  </button>
+                </div>
+                <div class="bg-[#F8F8F8] hover:bg-[#F5F5F5] rounded-md cursor-pointer" role="presentation">
+                  <button class="p-3 md:p-5 md:px-7 flex items-center gap-5 w-full text-left">
+                    <div class="flex-1 font-medium text-sm md:text-lg">
+                      What languages does the Translator support?
+                    </div>
+                    <div>
+                      <svg stroke="currentColor" fill="none" stroke-width="2" viewBox="0 0 24 24" stroke-linecap="round" stroke-linejoin="round" class="text-gray-400 h-5 w-5" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg">
+                        <line x1="12" y1="5" x2="12" y2="19">
+                        </line>
+                        <line x1="5" y1="12" x2="19" y2="12">
+                        </line>
+                      </svg>
+                    </div>
+                  </button>
+                </div>
+                <div class="bg-[#F8F8F8] hover:bg-[#F5F5F5] rounded-md cursor-pointer" role="presentation">
+                  <button class="p-3 md:p-5 md:px-7 flex items-center gap-5 w-full text-left">
+                    <div class="flex-1 font-medium text-sm md:text-lg">
+                      How does the Resume Builder work?
+                    </div>
+                    <div>
+                      <svg stroke="currentColor" fill="none" stroke-width="2" viewBox="0 0 24 24" stroke-linecap="round" stroke-linejoin="round" class="text-gray-400 h-5 w-5" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg">
+                        <line x1="12" y1="5" x2="12" y2="19">
+                        </line>
+                        <line x1="5" y1="12" x2="19" y2="12">
+                        </line>
+                      </svg>
+                    </div>
+                  </button>
+                </div>
+                <div class="bg-[#F8F8F8] hover:bg-[#F5F5F5] rounded-md cursor-pointer" role="presentation">
+                  <button class="p-3 md:p-5 md:px-7 flex items-center gap-5 w-full text-left">
+                    <div class="flex-1 font-medium text-sm md:text-lg">
+                      What is eGov Lens, and what documents can it scan?
+                    </div>
+                    <div>
+                      <svg stroke="currentColor" fill="none" stroke-width="2" viewBox="0 0 24 24" stroke-linecap="round" stroke-linejoin="round" class="text-gray-400 h-5 w-5" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg">
+                        <line x1="12" y1="5" x2="12" y2="19">
+                        </line>
+                        <line x1="5" y1="12" x2="19" y2="12">
+                        </line>
+                      </svg>
+                    </div>
+                  </button>
+                </div>
+                <div class="bg-[#F8F8F8] hover:bg-[#F5F5F5] rounded-md cursor-pointer" role="presentation">
+                  <button class="p-3 md:p-5 md:px-7 flex items-center gap-5 w-full text-left">
+                    <div class="flex-1 font-medium text-sm md:text-lg">
+                      Is my information safe when using eGovAI?
+                    </div>
+                    <div>
+                      <svg stroke="currentColor" fill="none" stroke-width="2" viewBox="0 0 24 24" stroke-linecap="round" stroke-linejoin="round" class="text-gray-400 h-5 w-5" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg">
+                        <line x1="12" y1="5" x2="12" y2="19">
+                        </line>
+                        <line x1="5" y1="12" x2="19" y2="12">
+                        </line>
+                      </svg>
+                    </div>
+                  </button>
+                </div>
+                <div class="bg-[#F8F8F8] hover:bg-[#F5F5F5] rounded-md cursor-pointer" role="presentation">
+                  <button class="p-3 md:p-5 md:px-7 flex items-center gap-5 w-full text-left">
+                    <div class="flex-1 font-medium text-sm md:text-lg">
+                      Can I use eGovAI services without an internet connection?
+                    </div>
+                    <div>
+                      <svg stroke="currentColor" fill="none" stroke-width="2" viewBox="0 0 24 24" stroke-linecap="round" stroke-linejoin="round" class="text-gray-400 h-5 w-5" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg">
+                        <line x1="12" y1="5" x2="12" y2="19">
+                        </line>
+                        <line x1="5" y1="12" x2="19" y2="12">
+                        </line>
+                      </svg>
+                    </div>
+                  </button>
+                </div>
+              </div>
+              <div id="contact">
+              </div>
+              <br />
+              <br />
+              <br />
+              <div class="bg-[#020617] p-5 sm:p-10 rounded-2xl md:w-[900px] md:mx-auto flex flex-col items-center gap-10" data-aos="fade-up" data-aos-duration="700">
+                <div class="flex items-center">
+                  <img alt="users" loading="lazy" width="126" height="126" decoding="async" data-nimg="1" class="h-10 w-10 object-contain rounded-full border-2 border-white -mx-1.5 bg-black" style="color:transparent" srcset="/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fuser-1.52d766fb.png&amp;w=128&amp;q=75 1x, /_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fuser-1.52d766fb.png&amp;w=256&amp;q=75 2x" src="/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fuser-1.52d766fb.png&amp;w=256&amp;q=75" />
+                  <img alt="users" loading="lazy" width="126" height="126" decoding="async" data-nimg="1" class="h-10 w-10 object-contain rounded-full border-2 border-white -mx-1.5 bg-black" style="color:transparent" srcset="/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fuser-2.a9980793.png&amp;w=128&amp;q=75 1x, /_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fuser-2.a9980793.png&amp;w=256&amp;q=75 2x" src="/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fuser-2.a9980793.png&amp;w=256&amp;q=75" />
+                  <img alt="users" loading="lazy" width="126" height="126" decoding="async" data-nimg="1" class="h-10 w-10 object-contain rounded-full border-2 border-white -mx-1.5 bg-black" style="color:transparent" srcset="/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fuser-3.d2984914.png&amp;w=128&amp;q=75 1x, /_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fuser-3.d2984914.png&amp;w=256&amp;q=75 2x" src="/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fuser-3.d2984914.png&amp;w=256&amp;q=75" />
+                  <img alt="users" loading="lazy" width="84" height="85" decoding="async" data-nimg="1" class="h-10 w-10 object-contain rounded-full border-2 border-white -mx-1.5 bg-black" style="color:transparent" srcset="/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Farrow.abcdf25f.png&amp;w=96&amp;q=75 1x, /_next/image?url=%2F_next%2Fstatic%2Fmedia%2Farrow.abcdf25f.png&amp;w=256&amp;q=75 2x" src="/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Farrow.abcdf25f.png&amp;w=256&amp;q=75" />
+                </div>
+                <div class="text-white text-center space-y-3">
+                  <div class="text-xl font-bold">
+                    Still have questions?
+                  </div>
+                  <div>
+                    Can&#39;t find the answer you&#39;re looking for? Enter your email address, We&#39;ll get in touch with you ASAP
+                  </div>
+                </div>
+                <form class="flex flex-col md:flex-row gap-5 w-full">
+                  <div class="flex-1">
+                    <div class="grid gap-1 group w-full">
+                      <button type="button" class="form-ring-within px-3 text-left rounded-md flex items-center gap-3 border ring-offset-background h-10 text-sm group-focus-within:border-gray-300 transform duration-100 ease-in cursor-text border-ds-azure bg-ds-azure">
+                        <input class="outline-none flex w-full file:border-0 file:bg-transparent file:text-sm file:font-medium placeholder:text-ds-placeholder disabled:cursor-not-allowed bg-ds-azure" id="email" placeholder="Enter your email" name="email" />
+                      </button>
+                    </div>
+                  </div>
+                  <div>
+                    <button class="justify-center whitespace-nowrap rounded-md text-sm font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none bg-secondary text-secondary-foreground hover:bg-secondary/80 h-10 py-2 px-12 w-full flex items-center gap-2 form-ring relative">
+                      Submit
+                    </button>
+                  </div>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="flex-1 flex flex-col items-center relative py-20 pt-0 md:py-40 md:pt-0">
+          <div class="max-w-7xl w-full flex-1 flex flex-col px-5">
+            <div class="flex flex-col gap-10">
+              <div class="md:h-[520px] w-full bg-gray-100 rounded-3xl flex flex-col justify-center items-center space-y-5 p-5" style="background-image:url(/_next/static/media/gradient-banner.8557bb60.png);background-position:center;background-repeat:no-repeat;background-size:cover">
+                <div class="text-2xl md:text-[60px] font-bold leading-tight text-center px-5 max-w-xl" data-aos="fade-down">
+                  Get Started with eGovAI Today!
+                </div>
+                <div class="text-lg text-center px-5 max-w-xl" data-aos="fade-down" data-aos-delay="300">
+                  eGovAI is available through the eGovPH App and can also be integrated into partner agency platforms. By adopting eGovAI, agencies help ensure that government services are smarter, faster, and more citizen-centric.
+                </div>
+                <br class="hidden md:block" />
+                <div data-aos="fade-up" data-aos-delay="900">
+                  <div class="hidden md:block">
+                    <a href="/developers">                    <button type="button" class="flex items-center gap-3 text-sm font-bold bg-gradient-to-r from-[#0094E7] via-[#0050E7] to-[#0040E7] text-white rounded-sm hover:opacity-90 p-5">
+                      <div>
+                        Get Started
+                      </div>
+                      <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 512 512" class="h-4 w-4" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M0 256a256 256 0 1 0 512 0A256 256 0 1 0 0 256zM281 385c-9.4 9.4-24.6 9.4-33.9 0s-9.4-24.6 0-33.9l71-71L136 280c-13.3 0-24-10.7-24-24s10.7-24 24-24l182.1 0-71-71c-9.4-9.4-9.4-24.6 0-33.9s24.6-9.4 33.9 0L393 239c9.4 9.4 9.4 24.6 0 33.9L281 385z">
+                        </path>
+                      </svg>
+                    </button>
+</a>
+                  </div>
+                  <div class="md:hidden">
+                    <a href="/developers">                    <button type="button" class="flex items-center gap-3 text-sm font-bold bg-gradient-to-r from-[#0094E7] via-[#0050E7] to-[#0040E7] text-white rounded-sm hover:opacity-90 py-2.5 px-4">
+                      <div>
+                        Get Started
+                      </div>
+                      <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 512 512" class="h-4 w-4" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M0 256a256 256 0 1 0 512 0A256 256 0 1 0 0 256zM281 385c-9.4 9.4-24.6 9.4-33.9 0s-9.4-24.6 0-33.9l71-71L136 280c-13.3 0-24-10.7-24-24s10.7-24 24-24l182.1 0-71-71c-9.4-9.4-9.4-24.6 0-33.9s24.6-9.4 33.9 0L393 239c9.4 9.4 9.4 24.6 0 33.9L281 385z">
+                        </path>
+                      </svg>
+                    </button>
+</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="bg-[#1B1B1B] py-20 px-5 flex flex-col text-sm">
+          <div class="grid grid-cols-1 md:grid-cols-5 gap-12 text-white mx-auto text-center md:text-left">
+            <div class="flex flex-col items-center md:items-start">
+              <img alt="republic-of-ph" loading="lazy" width="320" height="353" decoding="async" data-nimg="1" class="object-contain h-20 md:h-40 -mt-2 w-auto" style="color:transparent" srcset="/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Frepublic-of-ph.48c8b788.png&amp;w=384&amp;q=75 1x, /_next/image?url=%2F_next%2Fstatic%2Fmedia%2Frepublic-of-ph.48c8b788.png&amp;w=640&amp;q=75 2x" src="/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Frepublic-of-ph.48c8b788.png&amp;w=640&amp;q=75" />
+            </div>
+            <div class="flex flex-col items-center md:items-start">
+              <div>
+                <img alt="logo-white" loading="lazy" width="356" height="78" decoding="async" data-nimg="1" class="h-5 w-auto object-contain" style="color:transparent" srcset="/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Flogo-white.e781c142.png&amp;w=384&amp;q=75 1x, /_next/image?url=%2F_next%2Fstatic%2Fmedia%2Flogo-white.e781c142.png&amp;w=750&amp;q=75 2x" src="/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Flogo-white.e781c142.png&amp;w=750&amp;q=75" />
+              </div>
+              <br />
+              <div>
+                Developed by DICT
+              </div>
+              <div>
+                Copyright © 2024 eGovAI
+              </div>
+              <div>
+                All Rights Reserved
+              </div>
+            </div>
+            <div>
+              <div class="text-xs font-bold">
+                ABOUT US
+              </div>
+              <br />
+              <div>
+                <a href="/terms">                Terms &amp; Conditions
+</a>
+              </div>
+              <div>
+                <a href="/policy">                Privacy Policy
+</a>
+              </div>
+              <div>
+                <button>
+                  FAQs
+                </button>
+              </div>
+            </div>
+            <div class="flex flex-col items-center md:items-start">
+              <div class="text-xs font-bold">
+                FOLLOW US
+              </div>
+              <br />
+              <div class="flex items-center gap-4">
+                <a href="https://facebook.com">                <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 512 512" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M512 256C512 114.6 397.4 0 256 0S0 114.6 0 256C0 376 82.7 476.8 194.2 504.5V334.2H141.4V256h52.8V222.3c0-87.1 39.4-127.5 125-127.5c16.2 0 44.2 3.2 55.7 6.4V172c-6-.6-16.5-1-29.6-1c-42 0-58.2 15.9-58.2 57.2V256h83.6l-14.4 78.2H287V510.1C413.8 494.8 512 386.9 512 256h0z">
+                  </path>
+                </svg>
+</a>
+                <a href="https://x.com">                <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 512 512" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M459.37 151.716c.325 4.548.325 9.097.325 13.645 0 138.72-105.583 298.558-298.558 298.558-59.452 0-114.68-17.219-161.137-47.106 8.447.974 16.568 1.299 25.34 1.299 49.055 0 94.213-16.568 130.274-44.832-46.132-.975-84.792-31.188-98.112-72.772 6.498.974 12.995 1.624 19.818 1.624 9.421 0 18.843-1.3 27.614-3.573-48.081-9.747-84.143-51.98-84.143-102.985v-1.299c13.969 7.797 30.214 12.67 47.431 13.319-28.264-18.843-46.781-51.005-46.781-87.391 0-19.492 5.197-37.36 14.294-52.954 51.655 63.675 129.3 105.258 216.365 109.807-1.624-7.797-2.599-15.918-2.599-24.04 0-57.828 46.782-104.934 104.934-104.934 30.213 0 57.502 12.67 76.67 33.137 23.715-4.548 46.456-13.32 66.599-25.34-7.798 24.366-24.366 44.833-46.132 57.827 21.117-2.273 41.584-8.122 60.426-16.243-14.292 20.791-32.161 39.308-52.628 54.253z">
+                  </path>
+                </svg>
+</a>
+                <a href="https://instagram.com">                <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 1024 1024" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M512 378.7c-73.4 0-133.3 59.9-133.3 133.3S438.6 645.3 512 645.3 645.3 585.4 645.3 512 585.4 378.7 512 378.7zM911.8 512c0-55.2.5-109.9-2.6-165-3.1-64-17.7-120.8-64.5-167.6-46.9-46.9-103.6-61.4-167.6-64.5-55.2-3.1-109.9-2.6-165-2.6-55.2 0-109.9-.5-165 2.6-64 3.1-120.8 17.7-167.6 64.5C132.6 226.3 118.1 283 115 347c-3.1 55.2-2.6 109.9-2.6 165s-.5 109.9 2.6 165c3.1 64 17.7 120.8 64.5 167.6 46.9 46.9 103.6 61.4 167.6 64.5 55.2 3.1 109.9 2.6 165 2.6 55.2 0 109.9.5 165-2.6 64-3.1 120.8-17.7 167.6-64.5 46.9-46.9 61.4-103.6 64.5-167.6 3.2-55.1 2.6-109.8 2.6-165zM512 717.1c-113.5 0-205.1-91.6-205.1-205.1S398.5 306.9 512 306.9 717.1 398.5 717.1 512 625.5 717.1 512 717.1zm213.5-370.7c-26.5 0-47.9-21.4-47.9-47.9s21.4-47.9 47.9-47.9 47.9 21.4 47.9 47.9a47.84 47.84 0 0 1-47.9 47.9z">
+                  </path>
+                </svg>
+</a>
+              </div>
+            </div>
+            <div class="flex flex-col items-center md:items-start">
+              <div class="text-xs font-bold">
+                DEVELOPED BY
+              </div>
+              <br />
+              <div>
+                <img alt="republic-of-ph" loading="lazy" width="237" height="289" decoding="async" data-nimg="1" class="h-20 object-contain w-auto" style="color:transparent" srcset="/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fdeveloped-by-logo.a459083e.png&amp;w=256&amp;q=75 1x, /_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fdeveloped-by-logo.a459083e.png&amp;w=640&amp;q=75 2x" src="/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fdeveloped-by-logo.a459083e.png&amp;w=640&amp;q=75" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!--/$-->
+    </div>
+    <script src="/_next/static/chunks/webpack-b3b6541017a5e255.js" async="">
+    </script>
+    <script>
+      (self.__next_f=self.__next_f||[]).push([0]);self.__next_f.push([2,null])
+    </script>
+    <script>
+      self.__next_f.push([1,&#34;1:HL[\&#34;/_next/static/media/4473ecc91f70f139-s.p.woff\&#34;,\&#34;font\&#34;,{\&#34;crossOrigin\&#34;:\&#34;\&#34;,\&#34;type\&#34;:\&#34;font/woff\&#34;}]\n2:HL[\&#34;/_next/static/media/463dafcda517f24f-s.p.woff\&#34;,\&#34;font\&#34;,{\&#34;crossOrigin\&#34;:\&#34;\&#34;,\&#34;type\&#34;:\&#34;font/woff\&#34;}]\n3:HL[\&#34;/_next/static/css/cbef8c52f0ef34fb.css\&#34;,\&#34;style\&#34;]\n4:HL[\&#34;/_next/static/css/fb36e0a04819706e.css\&#34;,\&#34;style\&#34;]\n&#34;])
+    </script>
+    <script>
+      self.__next_f.push([1,&#34;5:I[12846,[],\&#34;\&#34;]\n7:I[19107,[],\&#34;ClientPageRoot\&#34;]\n8:I[92411,[\&#34;592\&#34;,\&#34;static/chunks/common-e53df629d685a4e2.js\&#34;,\&#34;486\&#34;,\&#34;static/chunks/app/(site)/home/page-dac23aecbd7305c0.js\&#34;],\&#34;default\&#34;,1]\na:I[4707,[],\&#34;\&#34;]\nb:I[36423,[],\&#34;\&#34;]\nc:I[93651,[\&#34;592\&#34;,\&#34;static/chunks/common-e53df629d685a4e2.js\&#34;,\&#34;185\&#34;,\&#34;static/chunks/app/layout-8ca0f40251a64c60.js\&#34;],\&#34;default\&#34;]\n12:I[61060,[],\&#34;\&#34;]\nd:{\&#34;fontFamily\&#34;:\&#34;system-ui,\\\&#34;Segoe UI\\\&#34;,Roboto,Helvetica,Arial,sans-serif,\\\&#34;Apple Color Emoji\\\&#34;,\\\&#34;Segoe UI Emoji\\\&#34;\&#34;,\&#34;height\&#34;:\&#34;100vh\&#34;,\&#34;textAlign\&#34;:\&#34;center\&#34;,\&#34;display\&#34;:\&#34;flex\&#34;,\&#34;flexDirection\&#34;:\&#34;column\&#34;,\&#34;alignItems\&#34;:\&#34;center\&#34;,\&#34;justifyContent\&#34;:\&#34;center\&#34;}\ne:{\&#34;display\&#34;:\&#34;inline-block\&#34;,\&#34;margin\&#34;:\&#34;0 20px 0 0\&#34;,\&#34;padding\&#34;:\&#34;0 23px 0 0\&#34;,\&#34;fontSize\&#34;:24,\&#34;fontWeight\&#34;:500,\&#34;verticalAlign\&#34;:\&#34;top\&#34;,\&#34;lineHeight\&#34;:\&#34;49px\&#34;}\nf:{\&#34;display\&#34;:\&#34;inline-block\&#34;}\n10:{\&#34;fontSize\&#34;:14,\&#34;fontWeight\&#34;:400,\&#34;lineHeight\&#34;:\&#34;49px\&#34;,\&#34;margin\&#34;:0}\n13:[]\n&#34;])
+    </script>
+    <script>
+      self.__next_f.push([1,&#34;0:[\&#34;$\&#34;,\&#34;$L5\&#34;,null,{\&#34;buildId\&#34;:\&#34;dZ85N-MaFuuY03U_E0TuH\&#34;,\&#34;assetPrefix\&#34;:\&#34;\&#34;,\&#34;urlParts\&#34;:[\&#34;\&#34;,\&#34;home\&#34;],\&#34;initialTree\&#34;:[\&#34;\&#34;,{\&#34;children\&#34;:[\&#34;(site)\&#34;,{\&#34;children\&#34;:[\&#34;home\&#34;,{\&#34;children\&#34;:[\&#34;__PAGE__\&#34;,{}]}]}]},\&#34;$undefined\&#34;,\&#34;$undefined\&#34;,true],\&#34;initialSeedData\&#34;:[\&#34;\&#34;,{\&#34;children\&#34;:[\&#34;(site)\&#34;,{\&#34;children\&#34;:[\&#34;home\&#34;,{\&#34;children\&#34;:[\&#34;__PAGE__\&#34;,{},[[\&#34;$L6\&#34;,[\&#34;$\&#34;,\&#34;$L7\&#34;,null,{\&#34;props\&#34;:{\&#34;params\&#34;:{},\&#34;searchParams\&#34;:{}},\&#34;Component\&#34;:\&#34;$8\&#34;}],null],null],null]},[[null,\&#34;$L9\&#34;],null],[[\&#34;$\&#34;,\&#34;div\&#34;,null,{\&#34;className\&#34;:\&#34;text-gray-400 text-xs\&#34;,\&#34;children\&#34;:\&#34;Loading...\&#34;}],[],[]]]},[null,[\&#34;$\&#34;,\&#34;$La\&#34;,null,{\&#34;parallelRouterKey\&#34;:\&#34;children\&#34;,\&#34;segmentPath\&#34;:[\&#34;children\&#34;,\&#34;(site)\&#34;,\&#34;children\&#34;],\&#34;error\&#34;:\&#34;$undefined\&#34;,\&#34;errorStyles\&#34;:\&#34;$undefined\&#34;,\&#34;errorScripts\&#34;:\&#34;$undefined\&#34;,\&#34;template\&#34;:[\&#34;$\&#34;,\&#34;$Lb\&#34;,null,{}],\&#34;templateStyles\&#34;:\&#34;$undefined\&#34;,\&#34;templateScripts\&#34;:\&#34;$undefined\&#34;,\&#34;notFound\&#34;:[[\&#34;$\&#34;,\&#34;title\&#34;,null,{\&#34;children\&#34;:\&#34;404: This page could not be found.\&#34;}],[\&#34;$\&#34;,\&#34;div\&#34;,null,{\&#34;style\&#34;:{\&#34;fontFamily\&#34;:\&#34;system-ui,\\\&#34;Segoe UI\\\&#34;,Roboto,Helvetica,Arial,sans-serif,\\\&#34;Apple Color Emoji\\\&#34;,\\\&#34;Segoe UI Emoji\\\&#34;\&#34;,\&#34;height\&#34;:\&#34;100vh\&#34;,\&#34;textAlign\&#34;:\&#34;center\&#34;,\&#34;display\&#34;:\&#34;flex\&#34;,\&#34;flexDirection\&#34;:\&#34;column\&#34;,\&#34;alignItems\&#34;:\&#34;center\&#34;,\&#34;justifyContent\&#34;:\&#34;center\&#34;},\&#34;children\&#34;:[\&#34;$\&#34;,\&#34;div\&#34;,null,{\&#34;children\&#34;:[[\&#34;$\&#34;,\&#34;style\&#34;,null,{\&#34;dangerouslySetInnerHTML\&#34;:{\&#34;__html\&#34;:\&#34;body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}\&#34;}}],[\&#34;$\&#34;,\&#34;h1\&#34;,null,{\&#34;className\&#34;:\&#34;next-error-h1\&#34;,\&#34;style\&#34;:{\&#34;display\&#34;:\&#34;inline-block\&#34;,\&#34;margin\&#34;:\&#34;0 20px 0 0\&#34;,\&#34;padding\&#34;:\&#34;0 23px 0 0\&#34;,\&#34;fontSize\&#34;:24,\&#34;fontWeight\&#34;:500,\&#34;verticalAlign\&#34;:\&#34;top\&#34;,\&#34;lineHeight\&#34;:\&#34;49px\&#34;},\&#34;children\&#34;:\&#34;404\&#34;}],[\&#34;$\&#34;,\&#34;div\&#34;,null,{\&#34;style\&#34;:{\&#34;display\&#34;:\&#34;inline-block\&#34;},\&#34;children\&#34;:[\&#34;$\&#34;,\&#34;h2\&#34;,null,{\&#34;style\&#34;:{\&#34;fontSize\&#34;:14,\&#34;fontWeight\&#34;:400,\&#34;lineHeight\&#34;:\&#34;49px\&#34;,\&#34;margin\&#34;:0},\&#34;children\&#34;:\&#34;This page could not be found.\&#34;}]}]]}]}]],\&#34;notFoundStyles\&#34;:[]}]],null]},[[[[\&#34;$\&#34;,\&#34;link\&#34;,\&#34;0\&#34;,{\&#34;rel\&#34;:\&#34;stylesheet\&#34;,\&#34;href\&#34;:\&#34;/_next/static/css/cbef8c52f0ef34fb.css\&#34;,\&#34;precedence\&#34;:\&#34;next\&#34;,\&#34;crossOrigin\&#34;:\&#34;$undefined\&#34;}],[\&#34;$\&#34;,\&#34;link\&#34;,\&#34;1\&#34;,{\&#34;rel\&#34;:\&#34;stylesheet\&#34;,\&#34;href\&#34;:\&#34;/_next/static/css/fb36e0a04819706e.css\&#34;,\&#34;precedence\&#34;:\&#34;next\&#34;,\&#34;crossOrigin\&#34;:\&#34;$undefined\&#34;}]],[\&#34;$\&#34;,\&#34;$Lc\&#34;,null,{\&#34;children\&#34;:[\&#34;$\&#34;,\&#34;html\&#34;,null,{\&#34;lang\&#34;:\&#34;en\&#34;,\&#34;children\&#34;:[[\&#34;$\&#34;,\&#34;head\&#34;,null,{\&#34;children\&#34;:[\&#34;$\&#34;,\&#34;meta\&#34;,null,{\&#34;name\&#34;:\&#34;viewport\&#34;,\&#34;content\&#34;:\&#34;width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no\&#34;}]}],[\&#34;$\&#34;,\&#34;body\&#34;,null,{\&#34;className\&#34;:\&#34;__variable_1e4310 __variable_c3aa02 antialiased\&#34;,\&#34;children\&#34;:[\&#34;$\&#34;,\&#34;$La\&#34;,null,{\&#34;parallelRouterKey\&#34;:\&#34;children\&#34;,\&#34;segmentPath\&#34;:[\&#34;children\&#34;],\&#34;error\&#34;:\&#34;$undefined\&#34;,\&#34;errorStyles\&#34;:\&#34;$undefined\&#34;,\&#34;errorScripts\&#34;:\&#34;$undefined\&#34;,\&#34;template\&#34;:[\&#34;$\&#34;,\&#34;$Lb\&#34;,null,{}],\&#34;templateStyles\&#34;:\&#34;$undefined\&#34;,\&#34;templateScripts\&#34;:\&#34;$undefined\&#34;,\&#34;notFound\&#34;:[[\&#34;$\&#34;,\&#34;title\&#34;,null,{\&#34;children\&#34;:\&#34;404: This page could not be found.\&#34;}],[\&#34;$\&#34;,\&#34;div\&#34;,null,{\&#34;style\&#34;:\&#34;$d\&#34;,\&#34;children\&#34;:[\&#34;$\&#34;,\&#34;div\&#34;,null,{\&#34;children\&#34;:[[\&#34;$\&#34;,\&#34;style\&#34;,null,{\&#34;dangerouslySetInnerHTML\&#34;:{\&#34;__html\&#34;:\&#34;body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}\&#34;}}],[\&#34;$\&#34;,\&#34;h1\&#34;,null,{\&#34;className\&#34;:\&#34;next-error-h1\&#34;,\&#34;style\&#34;:\&#34;$e\&#34;,\&#34;children\&#34;:\&#34;404\&#34;}],[\&#34;$\&#34;,\&#34;div\&#34;,null,{\&#34;style\&#34;:\&#34;$f\&#34;,\&#34;children\&#34;:[\&#34;$\&#34;,\&#34;h2\&#34;,null,{\&#34;style\&#34;:\&#34;$10\&#34;,\&#34;children\&#34;:\&#34;This page could not be found.\&#34;}]}]]}]}]],\&#34;notFoundStyles\&#34;:[]}]}]]}]}]],null],null],\&#34;couldBeIntercepted\&#34;:false,\&#34;initialHead\&#34;:[null,\&#34;$L11\&#34;],\&#34;globalErrorComponent\&#34;:\&#34;$12\&#34;,\&#34;missingSlots\&#34;:\&#34;$W13\&#34;}]\n&#34;])
+    </script>
+    <script>
+      self.__next_f.push([1,&#34;14:I[91210,[\&#34;592\&#34;,\&#34;static/chunks/common-e53df629d685a4e2.js\&#34;,\&#34;639\&#34;,\&#34;static/chunks/app/(site)/home/layout-05cd038b81a504ad.js\&#34;],\&#34;default\&#34;]\n15:I[2195,[\&#34;592\&#34;,\&#34;static/chunks/common-e53df629d685a4e2.js\&#34;,\&#34;639\&#34;,\&#34;static/chunks/app/(site)/home/layout-05cd038b81a504ad.js\&#34;],\&#34;default\&#34;]\n9:[\&#34;$\&#34;,\&#34;div\&#34;,null,{\&#34;className\&#34;:\&#34;flex flex-col\&#34;,\&#34;children\&#34;:[[\&#34;$\&#34;,\&#34;div\&#34;,null,{\&#34;className\&#34;:\&#34;flex-1 flex flex-col items-center relative\&#34;,\&#34;children\&#34;:[\&#34;$\&#34;,\&#34;div\&#34;,null,{\&#34;className\&#34;:\&#34;max-w-7xl w-full flex-1 flex flex-col px-5\&#34;,\&#34;children\&#34;:[\&#34;$\&#34;,\&#34;$L14\&#34;,null,{}]}]}],[\&#34;$\&#34;,\&#34;$La\&#34;,null,{\&#34;parallelRouterKey\&#34;:\&#34;children\&#34;,\&#34;segmentPath\&#34;:[\&#34;children\&#34;,\&#34;(site)\&#34;,\&#34;children\&#34;,\&#34;home\&#34;,\&#34;children\&#34;],\&#34;error\&#34;:\&#34;$undefined\&#34;,\&#34;errorStyles\&#34;:\&#34;$undefined\&#34;,\&#34;errorScripts\&#34;:\&#34;$undefined\&#34;,\&#34;template\&#34;:[\&#34;$\&#34;,\&#34;$Lb\&#34;,null,{}],\&#34;templateStyles\&#34;:\&#34;$undefined\&#34;,\&#34;templateScripts\&#34;:\&#34;$undefined\&#34;,\&#34;notFound\&#34;:\&#34;$undefined\&#34;,\&#34;notFoundStyles\&#34;:\&#34;$undefined\&#34;}],[\&#34;$\&#34;,\&#34;$L15\&#34;,null,{}]]}]\n11:[[\&#34;$\&#34;,\&#34;meta\&#34;,\&#34;0\&#34;,{\&#34;name\&#34;:\&#34;viewport\&#34;,\&#34;content\&#34;:\&#34;width=device-width, initial-scale=1\&#34;}],[\&#34;$\&#34;,\&#34;meta\&#34;,\&#34;1\&#34;,{\&#34;charSet\&#34;:\&#34;utf-8\&#34;}],[\&#34;$\&#34;,\&#34;title\&#34;,\&#34;2\&#34;,{\&#34;children\&#34;:\&#34;eGovAI\&#34;}],[\&#34;$\&#34;,\&#34;meta\&#34;,\&#34;3\&#34;,{\&#34;name\&#34;:\&#34;description\&#34;,\&#34;content\&#34;:\&#34;eGovAI, the intelligent assistant within the eGovPH App, is here to simplify your interactions with government services.\&#34;}],[\&#34;$\&#34;,\&#34;meta\&#34;,\&#34;4\&#34;,{\&#34;property\&#34;:\&#34;og:title\&#34;,\&#34;content\&#34;:\&#34;Your All-in-One Government AI Platform\&#34;}],[\&#34;$\&#34;,\&#34;meta\&#34;,\&#34;5\&#34;,{\&#34;property\&#34;:\&#34;og:description\&#34;,\&#34;content\&#34;:\&#34;eGovAI, the intelligent assistant within the eGovPH App, is here to simplify your interactions with government services.\&#34;}],[\&#34;$\&#34;,\&#34;meta\&#34;,\&#34;6\&#34;,{\&#34;property\&#34;:\&#34;og:image\&#34;,\&#34;content\&#34;:\&#34;http://localhost:3000/_next/static/media/meta-favicon.15ad7167.png\&#34;}],[\&#34;$\&#34;,\&#34;meta\&#34;,\&#34;7\&#34;,{\&#34;name\&#34;:\&#34;twitter:card\&#34;,\&#34;content\&#34;:\&#34;summary_large_image\&#34;}],[\&#34;$\&#34;,\&#34;meta\&#34;,\&#34;8\&#34;,{\&#34;name\&#34;:\&#34;twitter:title\&#34;,\&#34;content\&#34;:\&#34;Your All-in-One Government AI Platform\&#34;}],[\&#34;$\&#34;,\&#34;meta\&#34;,\&#34;9\&#34;,{\&#34;name\&#34;:\&#34;twitter:description\&#34;,\&#34;content\&#34;:\&#34;eGovAI, the intelligent assistant within the eGovPH App, is here to simplify your interactions with government services.\&#34;}],[\&#34;$\&#34;,\&#34;meta\&#34;,\&#34;10\&#34;,{\&#34;name\&#34;:\&#34;twitter:image\&#34;,\&#34;content\&#34;:\&#34;http://localhost:3000/_next/&#34;])
+    </script>
+    <script>
+      self.__next_f.push([1,&#34;static/media/meta-favicon.15ad7167.png\&#34;}],[\&#34;$\&#34;,\&#34;link\&#34;,\&#34;11\&#34;,{\&#34;rel\&#34;:\&#34;icon\&#34;,\&#34;href\&#34;:\&#34;/favicon.ico\&#34;,\&#34;type\&#34;:\&#34;image/x-icon\&#34;,\&#34;sizes\&#34;:\&#34;16x16\&#34;}],[\&#34;$\&#34;,\&#34;meta\&#34;,\&#34;12\&#34;,{\&#34;name\&#34;:\&#34;next-size-adjust\&#34;}]]\n6:null\n&#34;])
+    </script>
+  </body>
+</html>

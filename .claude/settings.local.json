@@ -1,0 +1,22 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npx create-next-app@latest . --typescript --tailwind --eslint --app --no-src-dir --import-alias \"@/*\" --yes)",
+      "Read(//c/Users/MXC/Documents/**)",
+      "Bash(npx create-next-app@latest egov-app --typescript --tailwind --eslint --app --no-src-dir --import-alias \"@/*\" --yes)",
+      "Bash(cp -r c:/Users/MXC/Documents/egov-app/* c:/Users/MXC/Documents/egov-mimic/)",
+      "Bash(cp -r c:/Users/MXC/Documents/egov-app/.* c:/Users/MXC/Documents/egov-mimic/)",
+      "Bash(rm -rf c:/Users/MXC/Documents/egov-app)",
+      "Bash(ls c:/Users/MXC/Documents/egov-mimic/.*)",
+      "Bash(find c:/Users/MXC/Documents/egov-mimic -maxdepth 1 -name *.json -o -name *.ts -o -name *.mjs)",
+      "Bash(cp c:/Users/MXC/Documents/egov-app/package.json c:/Users/MXC/Documents/egov-app/package-lock.json c:/Users/MXC/Documents/egov-app/tsconfig.json c:/Users/MXC/Documents/egov-app/postcss.config.mjs c:/Users/MXC/Documents/egov-mimic/)",
+      "Bash(cp -r c:/Users/MXC/Documents/egov-app/public c:/Users/MXC/Documents/egov-mimic/)",
+      "Bash(npm run:*)",
+      "Bash(vercel --version)",
+      "Bash(vercel whoami:*)",
+      "Bash(grep -rn \"gov\\\\|Gov\\\\|GOV\" c:/Users/MXC/Documents/egov-mimic/app --include=*.tsx --include=*.ts)",
+      "Bash(grep -rn \"AI Platform\\\\|AI platform\" c:/Users/MXC/Documents/egov-mimic/*.tsx c:/Users/MXC/Documents/egov-mimic/*.ts c:/Users/MXC/Documents/egov-mimic/*.md)",
+      "Bash(git config:*)"
+    ]
+  }
+}

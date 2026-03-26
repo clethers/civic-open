@@ -47,13 +47,7 @@ const MinusIcon = () => (
   </svg>
 );
 
-const BlueCTA = ({
-  children,
-  className = "",
-}: {
-  children: React.ReactNode;
-  className?: string;
-}) => (
+const BlueCTA = ({ children, className = "" }) => (
   <button
     type="button"
     className={`flex items-center gap-3 text-sm font-bold bg-gradient-to-r from-[#0094E7] via-[#0050E7] to-[#0040E7] text-white rounded-sm hover:opacity-90 py-2.5 px-4 ${className}`}
@@ -62,22 +56,13 @@ const BlueCTA = ({
   </button>
 );
 
-const Badge = ({ children }: { children: React.ReactNode }) => (
+const Badge = ({ children }) => (
   <div className="inline py-2 px-4 bg-gray-100 rounded-md text-sm font-bold text-xs md:text-sm">
     {children}
   </div>
 );
 
-// Placeholder for feature banner images
-const FeaturePlaceholder = ({
-  color,
-  label,
-  className = "",
-}: {
-  color: string;
-  label: string;
-  className?: string;
-}) => (
+const FeaturePlaceholder = ({ color, label, className = "" }) => (
   <div
     className={`rounded-2xl flex items-center justify-center ${color} ${className}`}
   >
@@ -199,7 +184,7 @@ const faqs = [
   "Can I use the platform services without an internet connection?",
 ];
 
-function FaqItem({ question }: { question: string }) {
+function FaqItem({ question }) {
   const [open, setOpen] = useState(false);
   return (
     <div
@@ -238,7 +223,6 @@ export default function HomePage() {
                   "linear-gradient(135deg, #e0f2fe 0%, #dbeafe 40%, #ede9fe 70%, #fce7f3 100%)",
               }}
             >
-              {/* User avatars row */}
               <div className="flex items-center">
                 {["👤", "👤", "👤", "→"].map((item, i) => (
                   <div
@@ -439,7 +423,6 @@ export default function HomePage() {
                 feature.imageRight ? "md:flex-row" : "md:flex-row-reverse"
               } items-center justify-center gap-10 md:gap-14`}
             >
-              {/* Text side */}
               <div className="flex flex-col items-center md:items-start space-y-5 max-w-md">
                 <Badge>{feature.badge}</Badge>
                 <div className="text-center md:text-left space-y-3">
@@ -454,7 +437,6 @@ export default function HomePage() {
                 <BlueCTA>{feature.cta}</BlueCTA>
               </div>
 
-              {/* Image side */}
               <FeaturePlaceholder
                 color={feature.color}
                 label={feature.title}
@@ -557,10 +539,8 @@ export default function HomePage() {
                 Get Started Today!
               </div>
               <div className="text-lg text-center px-5 max-w-xl text-gray-700">
-                This platform can be deployed as a standalone app and can also be
-                deployed as a standalone app or integrated into your existing
-                platforms. By adopting this solution, teams help ensure that
-                digital services are smarter, faster, and more user-centric.
+                Deploy as a standalone app or integrate into your existing
+                platforms. Smarter, faster, and more user-centric digital services.
               </div>
               <br className="hidden md:block" />
               <Link href="/developers">
