@@ -1,36 +1,119 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Civic Open
+
+**Smart tools, built for everyone.**
+
+Civic Open is an open AI platform that brings together a suite of intelligent tools in one place — translation, document scanning, chatbot assistance, resume building, identity verification, and more. Built for the public, open to all.
+
+---
+
+## Features
+
+| Tool | Description |
+|---|---|
+| AI Assistant | 24/7 chatbot for instant answers and guidance |
+| Translator | Real-time translation across multiple languages |
+| Image Identifier | Identify objects and items using AI |
+| Document Extractor | OCR-powered text extraction from scanned documents |
+| Coder/Programmer | AI-assisted coding, debugging, and optimization |
+| Speech Maker | Generate well-structured speeches for any occasion |
+| Identity AI | Secure facial recognition and liveness verification |
+| Resume Builder | Build professional resumes with AI assistance |
+| Open AI | Advanced AI for automation and data analysis |
+| Laws & Regulation | Access laws, policies, and legal guidelines |
+| Tourism | Travel guides and cultural insights |
+
+---
+
+## Tech Stack
+
+| Tool | Version |
+|---|---|
+| Next.js | 16.x |
+| React | 19.x |
+| Tailwind CSS | 4.x |
+| JavaScript (JSX) | ES2020+ |
+| Geist | Sans + Mono |
+
+---
 
 ## Getting Started
 
-First, run the development server:
+### Prerequisites
+
+- Node.js 18+
+- npm
+
+### Install & Run
 
 ```bash
+# Clone the repo
+git clone https://github.com/clethers/civic-open.git
+cd civic-open
+
+# Install dependencies
+npm install
+
+# Start development server
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open [http://localhost:3000](http://localhost:3000) in your browser.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+### Build for Production
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+```bash
+npm run build
+npm run start
+```
 
-## Learn More
+---
 
-To learn more about Next.js, take a look at the following resources:
+## Project Structure
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+```
+app/
+├── layout.jsx              # Root layout — metadata, fonts, global CSS
+├── page.jsx                # Root route — redirects to /home
+├── globals.css             # Global styles (Tailwind, CSS vars)
+│
+└── (site)/                 # Route group — shared header + footer
+    ├── layout.jsx          # Site layout — Header + Footer
+    ├── home/
+    │   └── page.jsx        # Landing page
+    └── developers/
+        └── page.jsx        # Developer / API docs page
+```
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+---
 
-## Deploy on Vercel
+## Customisation
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+### Rename the brand
+Search for `Civic Open` across all files and substitute your name.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+### Add a feature section
+Append to the `features` array in `app/(site)/home/page.jsx`:
+
+```js
+{
+  badge: "BADGE",
+  title: "Feature Name",
+  description: "Short description.",
+  cta: "Call to action",
+  color: "bg-gradient-to-br from-blue-400 to-blue-700",
+  imageRight: true,
+}
+```
+
+### Add an API endpoint
+Append to the `endpoints` array in `app/(site)/developers/page.jsx`:
+
+```js
+{ method: "POST", path: "/api/v1/endpoint", description: "What it does." }
+```
+
+---
+
+## License
+
+MIT — see [LICENSE](LICENSE)
